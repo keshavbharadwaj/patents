@@ -3,15 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List of patents</title>
+    <title>Patents and Copyrights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        /* Stylish hyperlinks */
+        a {
+            text-decoration: none;
+            color: #0078d4;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #004eaa;
+        }
+
+        /* Style for visited links */
+        a:visited {
+            color: #6b1f84;
+        }
+
+        /* Style for links in a specific class */
+        .special-links a {
+            color: #ff5722;
+        }
+
+        .special-links a:hover {
+            color: #e64a19;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+	ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            padding-left: 20px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '\2022'; /* Bullet character */
+            color: #0078d4; /* Bullet color */
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <body>
-    <h1>IP archive</h1> 
-    <p>Ip.</p>
-    <a href="scripts/adam_ip.html"> ADAM Architecture and Control Principles of EVE, EDEN and SAGE</a>
-    <br>
-    <a href="scripts/adam_design.html">Assembly and Dis-Assembly Machine Design and Development</a>
-    <br>
-    <a href="scripts/auto_drip_design.html">Auto-Drip Sanitizer Dispenser & Controls</a>
+    <header>
+        <h1>IP Archive</h1>
+    </header>
+    
+     <div class="container">
+        <p><u>Owners of the IP:</u></p>
+        <ul>
+            <li>Keshav Bharadwaj Vaidyanathan</li>
+            <li>Vivek Betadapura Adishesha</li>
+            <li>Sourav Pandurang Adi</li>
+	    <li>Chiranjit Rajendra Patel</li>
+            <li>Vivek Urankar</li>
+	    <li>Vivek Urankar</li>
+    
+        </ul>
+     </div>
+
+    <div class="container">
+        <p><u>Certificate of publication for the following are listed below:</u></p>
+        <ul>
+            <li><a href="scripts/adam_ip.html"> ADAM Architecture and Control Principles of EVE, EDEN and SAGE</a></li>
+            <li><a href="scripts/adam_design.html">Assembly and Dis-Assembly Machine Design and Development</a></li>
+            <li><a href="scripts/auto_drip_design.html">Auto-Drip Sanitizer Dispenser & Controls</a></li>
+        </ul>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
